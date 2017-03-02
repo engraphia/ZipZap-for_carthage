@@ -271,7 +271,7 @@
 		D87BA1AE1B3D5B2900ED7EB3 /* pangram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pangram.txt; sourceTree = "<group>"; };
 		D87BA1AF1B3D5B2900ED7EB3 /* 拉链.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "拉链.txt"; sourceTree = "<group>"; };
 		D87BA1F11B3D6A8300ED7EB3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		D87BA1F81B3D6DEA00ED7EB3 /* ZipZap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipZap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87BA1F81B3D6DEA00ED7EB3 /* zipzap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = zipzap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87BA1FB1B3D6DEA00ED7EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87BA2281B3D6F8500ED7EB3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		D88E8E05163816FD002207B3 /* ZZOldArchiveEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZOldArchiveEntry.h; sourceTree = "<group>"; };
@@ -496,7 +496,7 @@
 				D899CF82162C5EC100112F49 /* libZipZap.a */,
 				D899CF96162C5EC100112F49 /* ZipZapTests.xctest */,
 				D899CFB0162C5EEB00112F49 /* libZipZap.a */,
-				D87BA1F81B3D6DEA00ED7EB3 /* ZipZap.framework */,
+				D87BA1F81B3D6DEA00ED7EB3 /* zipzap.framework */,
 				D8D140D31B423B1100C411B0 /* ZipZap.framework */,
 				BF8624CB1BB7495200C12EEE /* ZipZap.framework */,
 				BF8624EF1BB74B1F00C12EEE /* libZipZap.a */,
@@ -681,7 +681,7 @@
 			);
 			name = "ZipZap (iOS Framework)";
 			productName = ZipZap;
-			productReference = D87BA1F81B3D6DEA00ED7EB3 /* ZipZap.framework */;
+			productReference = D87BA1F81B3D6DEA00ED7EB3 /* zipzap.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D899CF81162C5EC100112F49 /* ZipZap (macOS Static Library) */ = {
@@ -1129,7 +1129,7 @@
 					"-fno-exceptions",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ZipZap;
+				PRODUCT_NAME = zipzap;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -1154,7 +1154,7 @@
 					"-fno-exceptions",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelglow.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ZipZap;
+				PRODUCT_NAME = zipzap;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
